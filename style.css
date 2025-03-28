@@ -1,0 +1,541 @@
+:root {
+    --primary-color: #6f9389;
+    --secondary-color: #f58220;
+    --accent-color: #f6f1de;
+    --light-color: #FFF5E4;
+    --dark-color: #191816;
+    --slightdark-color: #263632;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background-image: url('./silya_assets/home/bg-image.jpg');
+}
+
+section {
+    padding: 60px 0;
+    scroll-margin-top: 76px;
+}
+
+.section-title {
+    position: relative;
+    font-weight: 700;
+    font-size: clamp(40px, 5vw, 50px) !important;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 4px;
+    background: var(--secondary-color);
+    border-radius: 2px;
+}
+
+.navbar-dark {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: large;
+    background: rgb(95, 135, 124);
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.navbar-brand img {
+    width: 72px;
+    height: 82px;
+    margin-right: 10px;
+}
+.nav-link {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    padding: 8px 16px !important;
+    transition: all 0.3s;
+    color: var(--light-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+}
+
+.nav-link.active {
+    color: var(--secondary-color) !important;
+    position: relative; 
+}
+
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px; 
+    transform: translateX(-50%);
+    width: 80%; 
+    max-width: 150px; 
+    height: 4px;
+    background: var(--secondary-color);
+    border-radius: 2px;
+}
+
+.footer-section {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: var(--light-color);
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #c9dece;
+}
+
+/*GALLERY SECTION*/
+
+/*FOOD GALLERY SECTION*/
+
+.gallery-section {
+    background-color: hsla(47, 57%, 92%, 0.6);
+    padding: 60px 0;
+    scroll-margin-top: 76px;
+  }
+  
+  .gallery-section .section-title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 4px;
+    background: var(--secondary-color);
+    border-radius: 2px;
+    
+  }
+  
+  .gallery-section .card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .food-img:hover {
+    transform: scale(1.01);
+  }
+  /*AMBIANCE SECTION*/
+  .ambiance-carousel-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .ambiance-carousel-image:hover {
+    transform: scale(1.01);
+  }
+  
+
+  /*EVENTS SECTION*/ 
+  .event-img {
+    width: 100%;
+    height: 280px; /* or 300px if you want taller */
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .event-img:hover {
+    transform: scale(1.01);
+  }
+
+  /*FOOTER SECTION*/
+
+  .footer-section {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-color) 100%);
+    color: var(--light-color);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-brand h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-links h4,
+.footer-social h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: var(--secondary-color);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: var(--light-color);
+    font-size: 35px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: var(--secondary-color);
+}
+
+.footer-brand img{
+    width: 72px;
+    height: 82px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: var(--light-color);
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-section {
+        padding: 3rem 1.5rem;
+    }
+
+    .bestseller-card {
+        height: 100%; 
+        min-height: 350px; 
+        flex-grow: 0; 
+    }
+
+    .model-image {
+        position: relative; 
+        display: block;
+        margin: 20px auto 0; 
+        width: 60%; 
+        max-width: 200px; 
+    }
+
+    .footer-links, .footer-social {
+        align-items: center; 
+        justify-content: center;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .model-image {
+        position: relative; 
+        display: block;
+        margin: 20px auto 0; 
+        width: 60%; 
+        max-width: 200px; 
+    }
+
+    .bestseller-card {
+        height: 100%; 
+        min-height: 350px; 
+        flex-grow: 0; 
+    }
+
+    .about-content {
+        text-align: left; 
+    }
+
+    .nav-link {
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-link.active::after {
+        display: none;
+    }
+
+    .footer-links, .footer-social {
+        text-align: center; 
+        width: 100%; 
+    }
+}
+
+/* Menu Section */
+.menu-section, .section-title {
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-accordion .accordion-button {
+    background-color: var(--accent-color);
+    color: var(--dark-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.menu-accordion .accordion-button img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.menu-accordion .accordion-body {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scale(1.02);
+}
+
+.menu-item-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.menu-item-details {
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.menu-item-name {
+    font-weight: bold;
+    color: var(--dark-color);
+}
+
+.menu-item-description {
+    color: #666;
+    font-style: italic;
+}
+
+.menu-item-price {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.accordion-content {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #e0e0e0; 
+    margin-bottom: 0; 
+}
+
+.accordion-item:last-child {
+    border-bottom: none; 
+}
+
+.menu-header-bg {
+    background-image: url('./silya_assets/home/hero_bg/mesa-bestseller-bg2-wwhitegradient.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 0 20px 0;
+    color: var(--light-color);
+    position: relative;
+}
+
+.menu-header-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.menu-header-bg .section-title,
+.menu-header-bg .lead {
+    position: relative;
+    z-index: 2;
+}
+
+.about-hero-header {
+    background-image: url('./silya_assets/home/hero_bg/mesa-bestseller-bg2-wwhitegradient.jpg');
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 0 20px 0;
+    color: var(--light-color);
+    position: relative;
+    
+}
+.about-hero-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+.about-hero-header .section-title,
+.about-hero-header .lead {
+    position: relative;
+    z-index: 1;
+}
+
+.about-text {
+    text-align: justify;
+  }
+
+
+@media screen and (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 1rem;
+        min-height: 80vh;
+    }
+    
+
+    .model-image {
+        position: relative; 
+        display: block;
+        margin: 20px auto 0; 
+        width: 60%; 
+        max-width: 200px; 
+    }
+
+    .bestseller-section {
+        text-align: center; 
+        padding-bottom: 50px; 
+    }
+
+    .floating-food-item {
+        width: 80px !important;
+    }
+
+    .nav-link {
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-link.active::after {
+        display: none;
+    }
+
+    /**Inadd ko**/
+    .menu-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-item-image {
+        width: 100%;
+        max-height: 250px;
+        object-fit: cover;
+    }
+
+    .menu-item-details {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .menu-accordion .accordion-body {
+        max-height: none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .food-img img,
+    .event-img {
+        height: auto !important;
+        max-height: 220px;
+        object-fit: cover;
+        align-items: center;
+        align-content: center;
+    }
+      
+    .ambiance-carousel-image {
+          height: 220px;
+          object-fit: cover;
+        }
+      
+    .hero-section {
+        padding: 1.5rem 0.75rem;
+        min-height: 70vh;
+    }
+
+    .nav-link {
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-link.active::after {
+        display: none;
+    }
+}
+

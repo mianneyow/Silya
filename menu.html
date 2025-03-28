@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Silya's Menu</title>
+    <link rel="icon" href="./silya_assets/home/hero_bg/silya_logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!--NAVBAR-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Navigation Bar">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html" aria-label="Silya Home">
+                    <img src="./silya_assets/home/silya_logo.png" alt="Silya Logo" aria-hidden="true">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" aria-label="Navigation Menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="home.html">home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="menu.html" aria-current="page">menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">about</a></li>
+                        <li class="nav-item"><a class="nav-link" href="home.html#contact">contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-section" style="margin-top: 100px;" aria-labelledby="menu-heading">
+            <div class="container">
+                <div class="text-center mb-5 menu-header-bg">
+                    <h1 class="section-title">our menu</h1>
+                    <div class="col-lg-4 mt-4"></div>
+                    <p class="lead">**Price varies across branches.**</p>
+                </div>
+
+                <div class="accordion menu-accordion" id="menuAccordion">
+                    
+                    <!-- Silya's Specialty -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="specialtyHeading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#specialtyCollapse" aria-expanded="false" aria-controls="specialtyCollapse">
+                                Specialty
+                            </button>
+                        </h2>
+                        <div id="specialtyCollapse" class="accordion-collapse collapse show" data-bs-parent="#menuAccordion" aria-labelledby="specialtyHeading">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/specialty/silya-specialty-crispchon-homepage-img-new.png" alt="Crispchon" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Crispchon</div>
+                                                <div class="menu-item-description">Deep fried piglet wrapped in malunggay crepe with cucumber, leeks, and wansoy served with our store-made dips.</div>
+                                                <div class="menu-item-price">₱1,899-₱9,995</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/specialty/silya-specialty-homepage-pinatayong-manok.png" alt="Pinatayong Manok" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Pinatayong Manok</div>
+                                                <div class="menu-item-description">1 kilo whole chicken, marinated, boiled and deep-fried served with house-made dip.</div>
+                                                <div class="menu-item-price">₱665</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/specialty/silya-specialty-Crispy-Pork-Belly-Transparent.png" alt="Pork Belly" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Crispy Pork Belly</div>
+                                                <div class="menu-item-description">Marinated, sous vide and deep fried belly served with fermented rice (buro) and one dipping sauce. Served with cucumber sticks, wansoy, leeks, and fresh romaine lettuce or malunggay crepe.</div>
+                                                <div class="menu-item-price">₱750-₱2,950</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appetizers -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="appetizersHeading">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#appetizersCollapse" aria-expanded="false" aria-controls="appetizersCollapse">
+                                Appetizer
+                            </button>
+                        </h2>
+                        <div id="appetizersCollapse" class="accordion-collapse collapse" data-bs-parent="#menuAccordion" aria-labelledby="appetizersHeading">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <!--Appetizer 1-->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/appetizer/silya-appetizer-baked-scallops.jpg" alt="Bake Scallops" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Baked Scallops</div>
+                                                <div class="menu-item-description">12 pieces scallops meat flavored with fresh garlic-butter and oyster sauce. *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱260</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Appetizer 2-->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">NEW!</span>
+                                            <img src="./silya_assets/home/menu/appetizer/silya-appetizer-tokwat-baboy.png" alt="Tokwa't Baboy" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Tokwa't Baboy</div>
+                                                <div class="menu-item-description">Boiled pork belly and tofu with red onion and siling labuyo, topped with wansoy.</div>
+                                                <div class="menu-item-price">₱255</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Appetizer 3-->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <img src="./silya_assets/home/menu/appetizer/silya-appetizer-tinapa-roll.png" alt="Tinapa Roll" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <span class="badge bg-success position-absolute top-0 end-0 m-2">BEST SELLER!</span>
+                                                <div class="menu-item-name">Tinapa Roll Lettuce</div>
+                                                <div class="menu-item-description">Flaked tinapang bangus wrapped in lumpia wrapper with tomato, onion and salted egg. Served with fried kropeck.</div>
+                                                <div class="menu-item-price">₱195 - ₱580</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Appetizer 4-->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/appetizer/silya-appetizer-hito-flakes-on-spoon.png" alt="Hito Flakes" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Hito Flakes on Spoon</div>
+                                                <div class="menu-item-description">8 spoons of fried hito flakes topped with mangga salad and sili.</div>
+                                                <div class="menu-item-price">₱295</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Appetizer 5-->
+                                    <h3>Sisig Favorites&nbsp;</h3><hr><br>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/appetizer/silya-appetizer-Sisig-in-a-Pouch.jpg" alt="In a Pouch" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">In a Pouch</div>
+                                                <div class="menu-item-description">8 pieces of deep fried pork sisig in lumpia wrapper wrapped with onion leeks. Additional Egg - P 25 *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱335</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Appetizer 6-->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/appetizer/silya-appetizer-crunchy-Pork-Sisig.jpg" alt="Crunchy Pork" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Crunchy Pork</div>
+                                                <div class="menu-item-description">Pork sisig tossed in sisig dressing on a sizzling plate topped with white onion, sili labuyo and calamansi. Additional Egg - P 25 *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱315-₱620</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Appetizer 7-->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/appetizer/silya-appetizer-tofu-Sisig.jpg" alt="Tofu" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Tofu</div>
+                                                <div class="menu-item-description">Local beancurd on a sizzling plate with onions and sisig special dressing. Additional Egg - P 25 *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱215</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Appetizer 8-->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/appetizer/silya-appetizer-bangus-sisig.png" alt="Bangus Sisig" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Bangus</div>
+                                                <div class="menu-item-description">Deep fried, seasoned boneless bangus belly on a sizzling plate topped with sili finger and red onion. Additional Egg - P 25</div>
+                                                <div class="menu-item-price">₱270</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Salo-Salo Set -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="salosetHeading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#salosetCollapse" aria-expanded="false" aria-controls="salosetCollapse">
+                               Salo-Salo Set
+                            </button>
+                        </h2>
+                        <div id="salosetCollapse" class="accordion-collapse collapse" data-bs-parent="#menuAccordion" aria-labelledby="salosetHeading">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/saloset/silya-saloset-New-Seafood-Mix-in-Chili-Sauce.png" alt="Seafood Chili Sauce" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Seafood mix in Chili Sauce</div>
+                                                <div class="menu-item-description">River shrimp, squid, and scallops meat simmered in sweet chili sauce topped with sili finger. *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱680</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/saloset/silya-saloset-All-Meat-Sampler.jpg" alt="All Meat " class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">All Meat Sample</div>
+                                                <div class="menu-item-description">Grilled beef, chicken leg quarter, pork belly and 6 sticks of pork BBQ basted with sweet soya glaze and BBQ sauce topped with spring onion.</div>
+                                                <div class="menu-item-price">₱925</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/saloset/silya-saloset-Pinirito-Sampler-1.jpg" alt="Pinirito Sampler" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Pinirito Sampler</div>
+                                                <div class="menu-item-description">Beef, 6 sticks of fried BBQ, baby squid, river shrimp, pork belly, chicken leg and a slice of bangus belly, slightly battered and deep fried. Served with house-made dip. *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱1,355</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <img src="./silya_assets/home/menu/saloset/silya-saloset-Inihaw-Sampler-1.jpg" alt="Inihaw Sampler" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <span class="badge bg-success position-absolute top-0 end-0 m-2">BEST SELLER!</span>
+                                                <div class="menu-item-name">Inihaw Sampler</div>
+                                                <div class="menu-item-description">Grilled chicken leg quarter, pork belly, scallops meat, river shrimp, squid, pork BBQ and a slice of bangus belly basted with sweet soya glaze topped with spring onion. *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱1,355</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/saloset/silya-saloset-All-Seafood-Sampler-1.jpg" alt="All Seafood Sampler" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">All Seafood Sampler</div>
+                                                <div class="menu-item-description">Grilled hito, river shrimp, scallops, squid, and sliced boneless bangus belly basted with sweet soya glaze. *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱1,185</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/saloset/silya-saloset-mesalo-salo-set-b.jpg" alt="Silya Salo-Salo Set A" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Silya Salo-Salo Set A</div>
+                                                <div class="menu-item-description">Sinigang Salmon Head Garlic Chicken Crispy Tilapia with Four Sauces Bicol Express Braised Beef Pansit Canton Steamed Rice</div>
+                                                <div class="menu-item-price">₱3,195-₱4,395</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/saloset/silya-saloset-mesalo-salo-set-c.jpg" alt="Silya Salo-Salo Set B" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Silya Salo-Salo Set B</div>
+                                                <div class="menu-item-description">Crunchy Pork Sisig Baby Squid in Olive Oil Bicol Express Kare Kare Beef and Tripe Inihaw Sampler Tinapa Rice</div>
+                                                <div class="menu-item-price">₱3,895-₱4,835</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/saloset/silya-saloset-suahe-in-salted-egg.png" alt="Silya Salo-Salo Set C" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Silya Salo-Salo Set C</div>
+                                                <div class="menu-item-description">Tinapa Roll Braised Beef Laing 2 Ways Suahe in Salted Egg Grilled Liempo Mesa Way Sisig Rice</div>
+                                                <div class="menu-item-price">₱2,850-₱3,900</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Main Course-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="mcHeading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mcCollapse" aria-expanded="false" aria-controls="mcCollapse">
+                                Main Course
+                            </button>
+                        </h2>
+                        <div id="mcCollapse" class="accordion-collapse collapse" data-bs-parent="#menuAccordion" aria-labelledby="mcHeading">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <!--BEEF-->
+                                    <h3>Duck&nbsp;</h3><hr><br>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">NEW!</span>
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-Adobong-Tisoy_1.jpg" alt="Adobong Tisoy" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Adobong Tisoy</div>
+                                                <div class="menu-item-description">Duck braised in soy sauce, vinegar and spices.</div>
+                                                <div class="menu-item-price">₱995-₱1,990</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">NEW!</span>
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-new-crispy-duck.jpg" alt="Crispy Duck" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Crispy Duck</div>
+                                                <div class="menu-item-description">Steamed and deep fried duck served with sweet chili sauce.</div>
+                                                <div class="menu-item-price">₱995-₱1,990</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--pork-->
+                                    <h3>Pork&nbsp;</h3><hr><br>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">NEW!</span>
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-new-bbq-spareribs.jpg" alt="Spare Ribs" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Spare Ribs</div>
+                                                <div class="menu-item-description">Marinated spareribs, grilled and basted with BBQ sauce and grilled sweet corn topped with fresh onion leeks</div>
+                                                <div class="menu-item-price">₱375</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-Grilled-Liempo-Mesa-Way-1.jpg" alt="Grilled Liempo Mesa Way" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Grilled Liempo Mesa Way</div>
+                                                <div class="menu-item-description">Marinated, grilled lean pork belly basted with BBQ sauce.</div>
+                                                <div class="menu-item-price">₱295-₱580</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-new-bicol-express.jpg" alt="Bicol Express" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Bicol Express</div>
+                                                <div class="menu-item-description">Simmered pork in fresh coconut milk with bagoong alamang, sili sigang, labuyo and baguio beans. *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱285-₱565</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-crispy-pata-bone-in.png" alt="Crispy Pata Bone-in" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Crispy Pata Bone-in</div>
+                                                <div class="menu-item-description">Whole pata front, sous vide and deep fried until crispy, topped with chili-garlic.</div>
+                                                <div class="menu-item-price">₱765-₱985</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--BEEF-->
+                                    <h3>Beef&nbsp;</h3><hr><br>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-mesalo-salo-set-c.jpg" alt="Beef Caldereta" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Kare-kare Beef and Tripe</div>
+                                                <div class="menu-item-description">Beef tenders, oxtripe, and fresh vegetables cooked in a rich creamy peanut sauce. Served with bagoong alamang. *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱595-1,190</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-success position-absolute top-0 end-0 m-2">BEST SELLER!</span>
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-new-beef-caldereta.jpg" alt="Beef Caldereta" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Beef Caldereta</div>
+                                                <div class="menu-item-description">Beef braised in tomato sauce, coconut milk, soy sauce, peanut butter and chili, served with siling labuyo and cheese</div>
+                                                <div class="menu-item-price">₱495-980</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-success position-absolute top-0 end-0 m-2">BEST SELLER!</span>
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-braised-beef.jpg" alt="Braised Beef" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Silya Braised Beef</div>
+                                                <div class="menu-item-description">Beef braised in coconut milk with desiccated coconut, paprika, cardamom, cinnamon, anise and topped with wansoy leaves, chili and coconut milk. *Product contains food allergens*</div>
+                                                <div class="menu-item-price">₱495-₱985</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <!--CHICKEN-->
+                                    <h3>Chicken&nbsp;</h3><hr><br>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-bbq-honey-patis.jpg" alt="Chicken Honey Patis" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Inihaw na Manok in Honey Patis</div>
+                                                <div class="menu-item-description">Charcoal grilled chicken served with honey and fish sauce.</div>
+                                                <div class="menu-item-price">₱230</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-success position-absolute top-0 end-0 m-2">BEST SELLER!</span>
+                                            <img src="./silya_assets/home/menu/maincourse/silya-mc-Garlic-Chicken.jpg" alt="Crispy Pata Bone-in" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Garlic Chicken</div>
+                                                <div class="menu-item-description">Deep fried chicken leg quarter tossed in honey-garlic glaze.</div>
+                                                <div class="menu-item-price">₱335-₱660</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Beverages-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="beveragesHeading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#beveragesCollapse" aria-expanded="false" aria-controls="beveragesCollapse">
+                               Beverages
+                            </button>
+                        </h2>
+                        <div id="beveragesCollapse" class="accordion-collapse collapse" data-bs-parent="#menuAccordion" aria-labelledby="beveragesHeading">
+                            <div class="accordion-body">
+                                <div class="row">
+
+                                    <!--MILK TEA-->
+                                    <h3>Milk Tea&nbsp;</h3><hr><br>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">NEW!</span>
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-New-Salted-Chocolate-Milktea.png" alt="Salted Chocolate" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Salted Chocolate</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱110-₱120</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">NEW!</span>
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-new-classic-milktea.jpg" alt="Classic" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Classic</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱110-₱120</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">NEW!</span>
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-new-black-sugar-millk-tea.jpg" alt="Black Sugar" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Black Sugar</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱110-₱120</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                    <!--DRINKS-->
+                                    <h3>Drinks&nbsp;</h3><hr><br>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">NEW!</span>
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-New-Sagot-Gulaman.png" alt="Fruit Tea - Sago't Gulaman tea" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Fruit Tea - Sago't Gulaman tea </div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱99</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">NEW!</span>
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-New-Passion-Fruit.png" alt="Fruit Tea - Passion fruit" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Fruit Tea - Passion fruit</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱99</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-guinomis-beverage.png" alt="Guinomis" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Guinumis</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-sagot-gulaman.png" alt="Sago't Gulaman" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Sago't Gulaman </div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱90</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-soda-in-can-2.png" alt="Soda in Can" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Soda in Can</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱90</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-bottled-water.png" alt="Bottled Water" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Bottled Water</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱55</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-brewed-coffee.png" alt="Brewed Coffee" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Brewed Coffee </div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱70</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-iced-tea.png" alt="Iced Tea" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Iced Tea</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱60 (Refill: 15)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-buko-juice-white-straw.png" alt="Buko in Shell" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Fresh Buko in Shell</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱155</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                    <!--FRESH FRUIT COOLERS-->
+                                    <h3>Fresh Fruit Coolers&nbsp;</h3><hr><br>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-success position-absolute top-0 end-0 m-2">BEST SELLER!</span>
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-kamias-shake.png" alt="Kamias" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Kamias  </div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-dalandan-shake.png" alt="Dalandan" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Dalandan</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱125</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-buko-juice.png" alt="Fresh Buko" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Fresh Buko</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱165</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-fresh-mango.png" alt="Fresh Mango" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Fresh Mango </div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱125</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-green-mango.png" alt="Green Mango" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Green Mango</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱125</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-watermelon-shake.png" alt="Watermelon" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Watermelon</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱125</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-sampaloc-shake.png" alt="Sampaloc" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Sampaloc </div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-calamansi-shake.png" alt="Calamansi" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Calamansi</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-pineapple-shake.png" alt="Pineapple" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Pineapple</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                    <!--BREWS-->
+                                    <h3>Brews&nbsp;</h3><hr><br>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-san-mig-pale-pilsen-2.png" alt="Pale Pilsen" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Pale Pilsen</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱99</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/beverages/silya-beverages-san-mig-light-2.png" alt="San Mig Light" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">San Mig Light</div>
+                                                <div class="menu-item-description"></div>
+                                                <div class="menu-item-price">₱99</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Desserts -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="dessertsHeading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dessertsCollapse" aria-expanded="false" aria-controls="dessertsCollapse">
+                                Desserts
+                            </button>
+                        </h2>
+                        <div id="dessertsCollapse" class="accordion-collapse collapse" data-bs-parent="#menuAccordion" aria-labelledby="dessertsHeading">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item position-relative">
+                                            <span class="badge bg-success position-absolute top-0 end-0 m-2">BEST SELLER!</span>
+                                            <img src="./silya_assets/home/menu/dessert/silya-desserts-halo-halo.jpg" alt="Halo-Halo" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Halo-Halo</div>
+                                                <div class="menu-item-description">Sweetened beans, langka, macapuno, and saba with sago, gulaman, and milky shaved ice, topped with ube ice cream, leche flan, and corn flakes.</div>
+                                                <div class="menu-item-price">₱135</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/dessert/silya-desserts-Leche-Flan-1-1.jpg" alt="Leche Flan" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Leche Flan</div>
+                                                <div class="menu-item-description">Round custard cake in caramelized sugar topped with roasted sesame seed.</div>
+                                                <div class="menu-item-price">₱70</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/dessert/silya-desserts-mais-con-hielo.jpg" alt="Mais Con Yelo" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Mais Con Yelo</div>
+                                                <div class="menu-item-description">Whole kernel corn and cream-style corn with milky shaved ice topped with corn flakes.</div>
+                                                <div class="menu-item-price">₱95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/dessert/silya-desserts-saba-con-hielo.jpg" alt="Saba Con Yelo" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Saba Con Yelo</div>
+                                                <div class="menu-item-description">Boiled sweetened saba and langka with milky shaved ice topped with corn flakes.</div>
+                                                <div class="menu-item-price">₱95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/dessert/silya-desserts-sapi-sapin-2-ways.jpg" alt="Sapin Sapin" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Sapin Sapin 2 Ways</div>
+                                                <div class="menu-item-description">Layered glutinous rice topped with latik. Served 2 ways: soft and crispy.</div>
+                                                <div class="menu-item-price">₱90</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/dessert/silya-desserts-suman-2-ways.jpg" alt="Suman 2 Ways" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Suman 2 Ways</div>
+                                                <div class="menu-item-description">Glutinous rice on native chocolate topped with ripe mango. Served 2 ways: soft and crispy.</div>
+                                                <div class="menu-item-price">₱65</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/dessert/silya-desserts-turon-with-ice-cream.png" alt="Turon with Ice Cream" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Turon</div>
+                                                <div class="menu-item-description">4 pieces turon stuffed with saba and langka in crispy wrapper topped with ice cream.</div>
+                                                <div class="menu-item-price">₱75-₱110</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="menu-item">
+                                            <img src="./silya_assets/home/menu/dessert/silya-desserts-cover-desserts.png" alt="Dessert Sampler" class="menu-item-image">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Dessert Sampler</div>
+                                                <div class="menu-item-description">Combination of biko, sapin sapin, suman, and crispy leche flan. Ideal for sharing.</div>
+                                                <div class="menu-item-price">₱185</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER SECTION-->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-12 footer-brand">
+                    <h3><img src="./silya_assets/home/silya_logo.png" alt="Logo"></h3>
+                    <p>Delicious flavors, unforgettable experiences.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-8 footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Silya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
